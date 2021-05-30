@@ -1,0 +1,414 @@
+/*! Framework Untalrobert.tk reset style */
+
+/* Variables de color */
+:root {
+  --main-title-color: #61bb45;
+  --main-subTitle-color: #162f5f;
+  --color-text: #606060;
+  --color-btn: #162f5f;
+}
+
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Style perzonalize site
+   ========================================================================== */
+
+.title {
+  font-size: 28px;
+  color: var(--main-title-color);
+  font-weight: bold;
+}
+
+
+/* HEADER */
+
+.logo {
+  margin: auto;
+}
+#home h2 {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+#home p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* MAIN */
+.content-text {
+  margin-top: 25%;
+}
+.content-text h1 + h2 {
+  padding: 20px 0px;
+}
+
+
+/* SECTION LEARN */
+#learn {
+  margin-top: 5%;
+}
+.title-learn {
+  text-align: center;
+  margin: 30px 0px;
+}
+.learn-subtitle h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+.learn-subtitle strong {
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--main-subTitle-color);
+}
+.learn-text-paragraf p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* ICONS */
+
+.section-img img {
+  width: 100%;
+}
+.bg-icons {
+  background: #eff8ec;
+}
+
+#icons .card-img-top {
+  width: 89px;
+  height: 89px;
+  text-align: center;
+  margin: auto;
+}
+#icons .card {
+  background: transparent;
+  border: transparent;
+}
+#icons .card .card-title {
+  text-align: center;
+  color: var(--main-subTitle-color);
+  font-size: 19px;
+  font-weight: bold;
+}
+#icons .card .card-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+}
+#icons .card .card-body {
+  padding: 20px 82px 0px 82px;
+}
+
+@media (min-width: 768px) { 
+  #icons .card .card-body {
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+#icons .row {
+  padding: 70px 0px;
+}
+
+
+/* SECCTION DOC */
+#doc {
+  padding: 50px 0px 90px 0px;
+}
+#doc .title {
+  text-align: center;
+  padding: 40px 0px;
+}
+#doc .icon-doc {
+  text-align: center;
+}
+#doc p {
+  font-weight: 300;
+  color: var(--color-text);
+}
+.text-doc {
+  
+}
+
+
+/* SECTION CONTACT */
+#contact {
+  padding-top: 4%;
+}
+.form-contact {
+  text-align: center;
+}
+form {
+  background: #62bb46;
+  padding: 40px;
+}
+.form-label {
+  color: var(--color-btn);
+  font-weight: 500;
+  font-size: 21px;
+}
+#contact input{
+  height: 61px;
+}
+#contact .btn-primary{
+  height: 61px;
+  font-size: 21px;
+  font-weight: bold;
+  background: #162f5f;
+}
+
+
+
+/* SECTION FOOTER */
+footer {
+  padding-top: 7%;
+}
+footer .col {
+  text-align: center;
+
+}
+.circulo {  
+  width: 100%;
+  margin: auto;
+  position: relative; 
+}
+.copy {
+  top: 60%;
+  position: absolute;
+  left: 39%;
+  color: #fff;
+}
+
+@media (max-width: 1400px) {
+  .copy {
+    top: 55%;
+    position: absolute;
+    left: 37%;
+    color: #fff;
+  }
+
+ }
+ @media (max-width: 992px) {
+  .copy {
+    top: 55%;
+    position: absolute;
+    left: 32%;
+    color: #fff;
+  }
+
+ }
+@media (max-width: 768px) { 
+  .copy {
+    top: 55%;  
+    left: 24%;
+    color: #fff;
+  }
+}
+
+@media (max-width: 576px) { 
+
+  .copy {
+    top: 55%;
+    position: absolute;
+    left: 15%;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) { 
+
+  .copy {
+    top: 58%;
+    position: absolute;
+    left: 10%;
+    color: #fff;
+    font-size: 12px;
+  }
+}
+
+
+/* ==========================================================================
+   End Style perzonalize site
+   ========================================================================== */
+
+
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+
+.invisible {
+  visibility: hidden;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+ 
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
